@@ -1,7 +1,9 @@
 #Definition of a function to find the ascii value of a char
+# Author Srikanth
+#Date Mar 5,2022
 def findAscii(x):
     return ord(x)
-
+#This function checks the ascii value of the letter and appends space if needed
 def camelCaseWords(word):
     newwordList=[]
     for i in word:
