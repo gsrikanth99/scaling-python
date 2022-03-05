@@ -1,4 +1,4 @@
-# This function is to list all the prime numbers in a range
+# This function is to list all the prime numbers in a range, do not include the last number
 def printPrime(x,y):
     prime_list=[] #initializing a list to store prime values
     for i in range(x,y): # Iterator to loop thru x and y range
